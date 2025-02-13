@@ -66,3 +66,11 @@ When three service started, setting basic-provider service level config in confi
         name: test
 
 Open in browser： http://localhost:9090/consumer/testConfig, check config update.
+
+
+# 容器构建 
+
+```shell
+mvn clean package -DskipTests
+mvn dockerfile:build
+```
